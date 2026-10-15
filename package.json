@@ -1,0 +1,33 @@
+{
+  "name": "rubusdt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,md,json}\""
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "dexie": "^3.2.3",
+    "lucide-react": "^0.250.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.8",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.4.8",
+    "typescript": "^5.1.6",
+    "vite": "^5.1.0",
+    "vitest": "^1.3.8",
+    "prettier": "^2.9.0",
+    "eslint": "^8.50.0"
+  }
+}
